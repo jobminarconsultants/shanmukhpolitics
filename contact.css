@@ -1,0 +1,240 @@
+/* Your custom styles go here */
+
+/* Optional: Add your custom styles to override Bootstrap styles */
+
+/* For example, to change the background color of the navbar */
+
+  .header {
+    background-color: #FF7E54;
+    padding: 10px 0; /* Decreased padding for the header */
+  }
+  
+  .header .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22m-7 8h7'/%3e%3c/svg%3e");
+  }
+  
+  .header .navbar-brand {
+    font-size: 24px;
+  }
+     
+  .header .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+  }
+  
+  .header .navbar-nav .nav-link:hover {
+    
+    border-radius: 0.25rem;
+  }
+  
+  .header .navbar-toggler {
+    border: 2px solid rgb(201, 185, 185); /* Toggle button border color */
+  }
+  
+  /* Default styles */
+  .header .navbar {
+    height: 40px; /* Default height */
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 767px) {
+    .header .navbar {
+      height: 60px; /* Adjusted height for mobile view */
+    }
+  }
+  @media (max-width: 768px) {
+    .top img {
+      height: 200px;
+      object-fit: cover;
+    }
+  }
+
+
+ /* Apply styles to the container */
+.row.col-6 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Apply styles to the inputs and textarea */
+.row.col-6 input, .row.col-6 textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Apply styles to the button */
+.row.col-6 button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+}
+
+.row.col-6 button:hover {
+  background-color: #2980b9;
+}
+/* Style for the parent container */
+.information-main-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for the contact information items */
+.contact-address,
+.contact-mobile-number,
+.contact-email,
+.contact-socialmedia-links {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Style for the contact logos */
+.contact-logos {
+  width: 30px; /* Adjust the size as needed */
+  margin-right: 10px;
+}
+
+/* Style for the contact social media links */
+.contact-socialmedia-links a {
+  margin-right: 10px;
+}
+
+/* Remove text decoration from anchor tags */
+.contact-socialmedia-links a {
+  text-decoration: none;
+}
+
+/* Adjust the color of social media links */
+.contact-socialmedia-links a img {
+  width: 30px; /* Adjust the size as needed */
+}
+
+.contact-socialmedia-links a img:hover {
+  filter: brightness(0.8); /* Adjust the hover effect as needed */
+}
+/* Normal state for social media links */
+.contact-socialmedia-links a img {
+  width: 30px; /* Adjust the size as needed */
+  filter: brightness(1); /* Normal brightness */
+}
+
+/* Hover state for social media links */
+.contact-socialmedia-links a img:hover {
+  filter: brightness(0.8); /* Adjust the hover effect as needed */
+  background-color: orange; /* Add orange color on hover */
+}
+.custom-button {
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  width: 100%;
+  padding: 0 20px;
+  font-size: 16px;
+  background-color: #FF7E54; /* Adjust button background color */
+  color: white; /* Adjust button text color */
+}
+
+.custom-button:hover {
+  background-color: #f76d28; /* Adjust button hover background color */
+}
+
+
+
+ 
+ 
+
+ 
+  
+
+  
+
+  
+
+
+  
+  
+
+
+
+
+
+
+
+/* Adjustments for smaller screens (e.g., mobile devices) */
+@media (max-width: 767px) {
+  .footer .col-md-6 {
+    width: 100%; /* Ensure full width for columns on smaller screens */
+    margin-bottom: 20px; /* Add spacing between columns */
+  }
+
+  .footer .mt-3 {
+    margin-top: 20px; /* Add margin at the top for better spacing */
+  }
+
+  .footer h3 {
+    margin-top: 20px; /* Add margin at the top for better spacing */
+  }
+
+  .footer .row h6 {
+    margin-top: 10px; /* Add margin at the top for better spacing */
+  }
+}
+
+/* General styles (unchanged) */
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input-container {
+  flex: 1;
+  border-radius: 50px 0 0 50px;
+  overflow: hidden;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #f30a0a;
+  border-right: none;
+}
+
+.subscribe-btn {
+  border-radius: 0 50px 50px 0;
+  padding: 10px 20px;
+  background-color: rgb(252, 111, 59);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.pmcare-btn {
+  border-radius: 50px;
+  margin-bottom: 10px;
+  border: 2px solid white;
+  color: white;
+  width: 300px;
+}
+
+ 
+/* impact */
+
+
+
+
+
+
+
+
+
+
+
+
+

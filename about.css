@@ -1,0 +1,314 @@
+.header {
+  background-color: #FF7E54;
+  padding: 10px 0; /* Decreased padding for the header */
+}
+
+.header .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22m-7 8h7'/%3e%3c/svg%3e");
+}
+
+.header .navbar-brand {
+  font-size: 24px;
+}
+   
+.header .navbar-nav .nav-link {
+  padding: 0.5rem 1rem;
+}
+
+.header .navbar-nav .nav-link:hover {
+  
+  border-radius: 0.25rem;
+}
+
+.header .navbar-toggler {
+  border: 2px solid rgb(201, 185, 185); /* Toggle button border color */
+}
+
+/* Default styles */
+.header .navbar {
+  height: 40px; /* Default height */
+}
+
+
+  .text{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* border: 1px solid green; */
+    margin: 0px 30px;
+    
+}
+.read-less-sub-1{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    
+}
+.read-less-sub-2{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.read-less-sub-1 h1{
+    font-family: Roboto Slab;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF7E54;
+    
+}
+.read-less-sub-1 p{
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* padding: 0px 30px; */
+
+}
+.read-more-btn{
+    width: 140px;
+    height: 34px;
+    top: 805px;
+    left: 480px;
+    margin-left: 30px;
+    border-radius: 100px;
+    border: 1px solid #FF7E54;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    color: #FF7E54;
+    margin-bottom: 30px;
+}
+.read-more-btn:hover{
+    background-color: #FF7E54;
+    color: white;
+   
+}
+.read-less-sub-2 img{
+    width: 25em;
+    height: 25em;
+    
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.moreText{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    margin: 30px 0px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+    row-gap: 20px;
+    text-align: justify;
+}
+.moreText{
+    display: none;
+}
+.read-more-content{
+    /* border: 1px solid blue; */
+    /* padding: 10px 10px; */
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 90%;
+    height: auto;
+
+}
+/* #read-less-button{
+    width: 140px;
+    height: 34px;
+    top: 805px;
+    left: 480px;
+    border-radius: 100px;
+    border: 1px solid #FF7E54;
+    margin: auto;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    color: #FF7E54;
+    margin-right: 10px;
+/* } */
+/* #read-less-button:hover{
+    background-color: #FF7E54;
+    color: white;
+   
+} */ 
+/* Your existing CSS styles */
+
+  
+  .content {
+    display: block;
+  }
+  
+  .collapsed {
+    display: none;
+  }
+  
+  
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+ 
+ 
+ 
+
+  
+
+  
+  
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Adjustments for smaller screens (e.g., mobile devices) */
+@media (max-width: 767px) {
+  .footer .col-md-6 {
+    width: 100%; /* Ensure full width for columns on smaller screens */
+    margin-bottom: 20px; /* Add spacing between columns */
+  }
+
+  .footer .mt-3 {
+    margin-top: 20px; /* Add margin at the top for better spacing */
+  }
+
+  .footer h3 {
+    margin-top: 20px; /* Add margin at the top for better spacing */
+  }
+
+  .footer .row h6 {
+    margin-top: 10px; /* Add margin at the top for better spacing */
+  }
+}
+
+/* General styles (unchanged) */
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input-container {
+  flex: 1;
+  border-radius: 50px 0 0 50px;
+  overflow: hidden;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #f30a0a;
+  border-right: none;
+}
+
+.subscribe-btn {
+  border-radius: 0 50px 50px 0;
+  padding: 10px 20px;
+  background-color: rgb(252, 111, 59);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.pmcare-btn {
+  border-radius: 50px;
+  margin-bottom: 10px;
+  border: 2px solid white;
+  color: white;
+  width: 300px;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Image styles */
+
+
+
+
+
+
+
+
